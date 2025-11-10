@@ -1,6 +1,6 @@
 # 💾 README: Custom SQL Database Agent (ReAct)
 
-## 1. 🎯 Purpose
+## 1.  Purpose
 
 This project implements a single-purpose, read-only **SQL Database Agent** built entirely from scratch. The agent interprets natural language queries against a **Film/TV SQLite database** by strictly following the **ReAct (Reasoning + Acting)** loop.
 
@@ -16,7 +16,7 @@ The goal is to demonstrate structured problem-solving: the agent must use its to
 
 ***
 
-## 2. 🚀 How to Run (Colab/Jupyter Environment)
+## 2.  How to Run (Colab Environment)
 
 ### Setup
 1.  **Dependencies:** This project requires the `sqlite3` standard library and the `google-genai` client library.
