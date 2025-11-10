@@ -1,7 +1,6 @@
-````markdown
 # 💾 README: Custom SQL Database Agent (ReAct)
 
-## 1.  Purpose
+## 1. 🎯 Purpose
 
 This project implements a single-purpose, read-only **SQL Database Agent** built entirely from scratch. The agent interprets natural language queries against a **Film/TV SQLite database** by strictly following the **ReAct (Reasoning + Acting)** loop.
 
@@ -17,23 +16,19 @@ The goal is to demonstrate structured problem-solving: the agent must use its to
 
 ***
 
-## 2. How to Run
+## 2. 🚀 How to Run (Colab/Jupyter Environment)
 
 ### Setup
 1.  **Dependencies:** This project requires the `sqlite3` standard library and the `google-genai` client library.
-2.  **API Key:** The LLM client must be initialized with your Gemini API key, typically set as an environment variable or passed directly:
-    ```bash
-    export GEMINI_API_KEY="YOUR_API_KEY_HERE"
-    ```
-3.  **Execution:** The agent is run by calling the `query` function with the natural language question. For command-line execution (or the final submission command):
+2.  **API Key:** The Gemini API key must be configured in an initial Python cell (e.g., using `os.environ` or `genai.configure`) before the agent is initialized.
+3.  **Execution:** The entire source code (DB setup, tool definitions, and agent logic) must be executed in preceding cells. The agent is then run by calling the `query` function directly in a new cell.
 
 ### Sample Execution Command
 
-```bash
-python agent.py "List the titles of all movies that star Leonardo DiCaprio and were released after the year 2000."
-````
+Execute the following in a Colab code cell to run the agent:
 
------
+```python
+query("List the titles of all movies that star Leonardo DiCaprio and were released after the year 2000.")
 
 ## 3\.  Tool System Description
 
