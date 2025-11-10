@@ -1,4 +1,4 @@
-# 💾 README: Custom SQL Database Agent (ReAct)
+# Custom SQL Database Agent (ReAct)
 
 ## 1.  Purpose
 
