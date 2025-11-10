@@ -1,4 +1,4 @@
-# Custom SQL Database Agent (ReAct)
+# Custom SQL Database Agent (ReAct)(Tanush Salian, Shreyansh Salvi)
 
 ## 1.  Purpose
 
