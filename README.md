@@ -27,7 +27,7 @@ The goal is to demonstrate structured problem-solving: the agent must use its to
 
 Execute the following in a Colab code cell to run the agent:
 
-```python
+
 query("List the titles of all movies that star Leonardo DiCaprio and were released after the year 2000.")
 
 ## 3\.  Tool System Description
@@ -84,5 +84,3 @@ Thought: The query returned the titles: Inception and The Dark Knight. This is t
 FINAL ANSWER: The titles of movies starring Leonardo DiCaprio released after 2000 are: Inception, The Dark Knight.
 ```
 
-```
-```
